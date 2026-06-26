@@ -1,0 +1,25 @@
+/* Tailwind v4: una sola línea importa todas las utilidades. */
+@import "tailwindcss";
+
+/*
+  Paleta del sitio (Tailwind v4 usa @theme en vez de tailwind.config.js).
+  Cada variable --color-* genera utilidades automáticamente:
+    --color-navy    -> bg-navy, text-navy, border-navy ...
+    --color-accent  -> bg-accent, text-accent, border-accent ...
+*/
+@theme {
+  --color-navy: #0f172a;          /* fondo base, azul oscuro */
+  --color-surface: #1e293b;       /* tarjetas y secciones */
+  --color-surface-2: #334155;     /* bordes / hover sutil */
+  --color-accent: #fbbf24;        /* acento ámbar */
+  --color-accent-strong: #f59e0b; /* acento ámbar para hover */
+}
+
+/* Scroll suave al navegar con los botones del Hero (#projects, etc.) */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-navy);
+}

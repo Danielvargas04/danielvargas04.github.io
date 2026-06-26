@@ -1,0 +1,47 @@
+[
+  {
+    "id": "cnn-agujeros-negros",
+    "title": "Red neuronal convolucional para imágenes de agujeros negros",
+    "period": "Ago 2023 - Dic 2023",
+    "description": "Diseño, entrenamiento y comparación de arquitecturas de **redes convolucionales** para la extracción de características en imágenes de agujeros negros, identificando regiones clave como el ISCO y la esfera de fotones mediante **mapas de activación**. Incluyó preprocesamiento y validación de datos físicos, **ajuste de hiperparámetros** y validación cruzada para optimizar la capacidad predictiva del modelo. Resultados publicados en la revista eSPECTRA (Universidad Nacional de Colombia).",
+    "tech": ["Python", "TensorFlow", "Deep Learning", "CNNs"],
+    "github": "https://github.com/Danielvargas04/Redes-Neuronales-para-imagenes-de-agujeros-negros",
+    "color": "from-sky-500 to-indigo-600"
+  },
+  {
+    "id": "geo-hackaton-climatico",
+    "title": "GEO-Hackatón Climático — 1er lugar",
+    "period": "Oct 2022",
+    "description": "**Primer lugar** en hackatón institucional de la Universidad Nacional de Colombia, presentando un **análisis de tendencias**, periodicidad y correlación en **series de datos** climáticos mediante **métodos de Fourier**, **modelos de regresión** y pruebas de hipótesis.",
+    "tech": ["Python", "Análisis de Fourier", "Estadística"],
+    "github": null,
+    "color": "from-emerald-500 to-teal-600"
+  },
+  {
+    "id": "nasa-space-apps",
+    "title": "NASA International Space Apps Challenge — 4to lugar global",
+    "period": "2024",
+    "description": "Cuarto lugar y nominación global en la hackatón de la NASA, desarrollando una aplicación en pygame capaz de identificar eventos sísmicos en tiempo real mediante un algoritmo **STA/LTA** modificado, alcanzando un **96%** de precisión.",
+    "tech": ["Python", "pygame", "Procesamiento de señales"],
+    "github": "https://github.com/Danielvargas04/CUMIS",
+    "color": "from-amber-500 to-orange-600"
+  },
+  {
+    "id": "analisis-de-movilidad-urbana",
+    "title": "Análisis de movilidad urbana — TEC de Monterrey",
+    "period": "Ago 2025 - Dic 2025",
+    "description": "Desarrollo de métricas y **pipelines** reproducibles para analizar patrones de movilidad urbana y estimar emisiones en ciudades mexicanas a partir de datos de GPS, comparando comportamientos en días de eventos masivos frente a días normales. Implementación de rutinas modulares de limpieza **espacio-temporal**, visualizaciones analíticas parametrizables (mapas de calor, histogramas, comparaciones entre resoluciones temporales) y métodos generalizables de **clasificación** de usuarios y **validación estadística**.",
+    "tech": ["Python", "Clustering", "Plotly", "Análisis geoespacial"],
+    "github": null,
+    "color": "from-rose-500 to-pink-600"
+  },
+  {
+    "id": "investigacion-en-astroquimica-computacional",
+    "title": "ML para la predicción de abundancias moleculares en el medio interestelar",
+    "period": " Ene 2026 - presente",
+    "description": "Trabajo de grado de maestría enfocado en aplicar **machine learning** para predecir la detectabilidad y abundancia de moléculas complejas en el medio interestelar. Implementación de un enfoque inspirado en **procesamiento de lenguaje natural (NLP)**, representando moléculas como vectores de embeddings análogos a word2vec, junto con técnicas de clustering **UMAP + HDBSCAN** y modelos de clasificación **Random Forest** sobre un corpus molecular astroquímico.",
+    "tech": ["Python", "Machine Learning", "ChemBERTa", "Astroquímica"],
+    "github": null,
+    "color": "from-violet-500 to-purple-600"
+  }
+]

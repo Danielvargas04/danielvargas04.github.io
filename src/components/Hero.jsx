@@ -16,7 +16,7 @@ function Hero() {
         {/* Columna de texto */}
         <div className="text-center md:text-left">
           <p className="text-accent font-medium tracking-wide mb-3">
-            Hola, soy
+            Hi, I'm
           </p>
 
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
@@ -36,7 +36,7 @@ function Hero() {
               href="#projects"
               className="px-6 py-3 rounded-lg bg-accent text-navy font-semibold hover:bg-accent-strong transition-colors"
             >
-              Ver proyectos
+              View projects
             </a>
 
             {/* Descarga del CV (atributo download sugiere guardar el archivo) */}
@@ -45,7 +45,7 @@ function Hero() {
               download
               className="px-6 py-3 rounded-lg border border-slate-600 text-slate-100 font-semibold hover:border-accent hover:text-accent transition-colors"
             >
-              Descargar CV
+              Download CV
             </a>
 
             {/* Contacto por correo */}
@@ -53,7 +53,7 @@ function Hero() {
               href="mailto:dvargasw@unal.edu.co"
               className="px-6 py-3 rounded-lg border border-slate-600 text-slate-100 font-semibold hover:border-accent hover:text-accent transition-colors"
             >
-              Contacto
+              Contact
             </a>
           </div>
 

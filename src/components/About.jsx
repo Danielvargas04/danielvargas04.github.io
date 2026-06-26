@@ -3,46 +3,46 @@
 
 const academic = [
   {
-    title: "Físico — Universidad Nacional de Colombia",
-    detail: "2020–2025 · Promedio 4.6/5.0",
+    title: "Physicist — Universidad Nacional de Colombia",
+    detail: "2020–2025 · GPA 4.6/5.0",
   },
   {
-    title: "Maestría en Astronomía — UNAL (en curso)",
+    title: "M.Sc. in Astronomy — UNAL (ongoing)",
     detail:
-      "Tesis: ML aplicado a la predicción de abundancias moleculares en el medio interestelar.",
+      "Thesis: ML applied to predicting molecular abundances in the interstellar medium.",
   },
   {
-    title: "Publicación científica — eSPECTRA (2024)",
+    title: "Scientific publication — eSPECTRA (2024)",
     detail:
-      "“Implementación de redes neuronales convolucionales para la extracción de características de imágenes de agujeros negros.”",
+      "“Implementation of convolutional neural networks for feature extraction from black hole images.”",
   },
   {
-    title: "Escuelas de verano",
+    title: "Summer schools",
     detail:
-      "UNAM (astrofísica/radioastronomía) y AstroTwinCoLO (lentes gravitacionales · U. Antioquia & Leiden).",
+      "UNAM (astrophysics/radio astronomy) and AstroTwinCoLO (gravitational lensing · U. Antioquia & Leiden).",
   },
 ];
 
 const industry = [
   {
-    title: "Análisis de movilidad urbana — TEC Monterrey",
-    detail: "Clustering y métricas reproducibles sobre datos GPS.",
+    title: "Urban mobility analysis — TEC Monterrey",
+    detail: "Clustering and reproducible metrics on GPS data.",
   },
   {
     title: "NASA Space Apps Challenge",
-    detail: "4.º lugar global · detección de eventos sísmicos (96% de precisión).",
+    detail: "4th place globally · seismic event detection (96% accuracy).",
   },
   {
-    title: "GEO-Hackatón Climático",
-    detail: "1er lugar · análisis de tendencias y correlaciones climáticas.",
+    title: "Climate GEO-Hackathon",
+    detail: "1st place · analysis of climate trends and correlations.",
   },
   {
-    title: "Profesor de Python — Kodland",
-    detail: "Fundamentos de Python y buenas prácticas orientadas a proyectos.",
+    title: "Python instructor — Kodland",
+    detail: "Python fundamentals and project-oriented best practices.",
   },
   {
-    title: "Pasantía de investigación — RECA",
-    detail: "Astroquímica computacional y pipelines de simulación.",
+    title: "Research internship — RECA",
+    detail: "Computational astrochemistry and simulation pipelines.",
   },
 ];
 
@@ -69,19 +69,19 @@ function About() {
   return (
     <section id="about" className="bg-navy text-slate-100 py-20">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-3xl font-bold mb-2 text-center">Sobre mí</h2>
+        <h2 className="text-3xl font-bold mb-2 text-center">About me</h2>
         <p className="text-slate-400 text-center mb-12">
-          Dos trayectorias que se complementan.
+          Two complementary tracks.
         </p>
 
         <div className="grid gap-8 md:grid-cols-2">
           <TrackColumn
-            heading="Trayectoria académica"
+            heading="Academic track"
             accentClass="text-accent"
             items={academic}
           />
           <TrackColumn
-            heading="Trayectoria aplicada / industria"
+            heading="Applied / industry track"
             accentClass="text-accent"
             items={industry}
           />

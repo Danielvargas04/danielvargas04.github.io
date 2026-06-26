@@ -1,47 +1,47 @@
 [
   {
+    "id": "investigacion-en-astroquimica-computacional",
+    "title": "ML for predicting molecular abundances in the interstellar medium",
+    "period": "Jan 2026 - present",
+    "description": "Master's thesis focused on applying **machine learning** to predict the detectability and abundance of complex molecules in the interstellar medium. Implementation of an approach inspired by **natural language processing (NLP)**, representing molecules as embedding vectors analogous to word2vec, along with **UMAP + HDBSCAN** clustering techniques and **Random Forest** classification models over an astrochemical molecular corpus.",
+    "tech": ["Python", "Machine Learning", "ChemBERTa", "Astrochemistry"],
+    "github": null,
+    "color": "from-violet-500 to-purple-600"
+  },
+  {
+    "id": "analisis-de-movilidad-urbana",
+    "title": "Urban mobility analysis — TEC de Monterrey",
+    "period": "Aug 2025 - Dec 2025",
+    "description": "Development of reproducible metrics and **pipelines** to analyze urban mobility patterns and estimate emissions in Mexican cities from GPS data, comparing behavior on mass-event days versus normal days. Implementation of modular **spatio-temporal** cleaning routines, parameterizable analytical visualizations (heatmaps, histograms, comparisons across temporal resolutions) and generalizable methods for user **classification** and **statistical validation**.",
+    "tech": ["Python", "Clustering", "Plotly", "Geospatial analysis"],
+    "github": null,
+    "color": "from-rose-500 to-pink-600"
+  },
+  {
     "id": "cnn-agujeros-negros",
-    "title": "Red neuronal convolucional para imágenes de agujeros negros",
-    "period": "Ago 2023 - Dic 2023",
-    "description": "Diseño, entrenamiento y comparación de arquitecturas de **redes convolucionales** para la extracción de características en imágenes de agujeros negros, identificando regiones clave como el ISCO y la esfera de fotones mediante **mapas de activación**. Incluyó preprocesamiento y validación de datos físicos, **ajuste de hiperparámetros** y validación cruzada para optimizar la capacidad predictiva del modelo. Resultados publicados en la revista eSPECTRA (Universidad Nacional de Colombia).",
+    "title": "Convolutional neural network for black hole images",
+    "period": "Aug 2023 - Dec 2023",
+    "description": "Design, training and comparison of **convolutional network** architectures for feature extraction from black hole images, identifying key regions such as the ISCO and the photon sphere through **activation maps**. Included preprocessing and validation of physical data, **hyperparameter tuning** and cross-validation to optimize the model's predictive power. Results published in the eSPECTRA journal (Universidad Nacional de Colombia).",
     "tech": ["Python", "TensorFlow", "Deep Learning", "CNNs"],
     "github": "https://github.com/Danielvargas04/Redes-Neuronales-para-imagenes-de-agujeros-negros",
     "color": "from-sky-500 to-indigo-600"
   },
   {
     "id": "geo-hackaton-climatico",
-    "title": "GEO-Hackatón Climático — 1er lugar",
+    "title": "Climate GEO-Hackathon — 1st place",
     "period": "Oct 2022",
-    "description": "**Primer lugar** en hackatón institucional de la Universidad Nacional de Colombia, presentando un **análisis de tendencias**, periodicidad y correlación en **series de datos** climáticos mediante **métodos de Fourier**, **modelos de regresión** y pruebas de hipótesis.",
-    "tech": ["Python", "Análisis de Fourier", "Estadística"],
+    "description": "**First place** in an institutional hackathon at Universidad Nacional de Colombia, presenting an **analysis of trends**, periodicity and correlation in climate **data series** using **Fourier methods**, **regression models** and hypothesis testing.",
+    "tech": ["Python", "Fourier analysis", "Statistics"],
     "github": null,
     "color": "from-emerald-500 to-teal-600"
   },
   {
     "id": "nasa-space-apps",
-    "title": "NASA International Space Apps Challenge — 4to lugar global",
+    "title": "NASA International Space Apps Challenge — 4th globally",
     "period": "2024",
-    "description": "Cuarto lugar y nominación global en la hackatón de la NASA, desarrollando una aplicación en pygame capaz de identificar eventos sísmicos en tiempo real mediante un algoritmo **STA/LTA** modificado, alcanzando un **96%** de precisión.",
-    "tech": ["Python", "pygame", "Procesamiento de señales"],
+    "description": "Fourth place and a global nomination in the **NASA** hackathon, developing a pygame application capable of identifying seismic events in real time through a modified **STA/LTA** algorithm, reaching **96%** accuracy.",
+    "tech": ["Python", "pygame", "Signal processing"],
     "github": "https://github.com/Danielvargas04/CUMIS",
     "color": "from-amber-500 to-orange-600"
-  },
-  {
-    "id": "analisis-de-movilidad-urbana",
-    "title": "Análisis de movilidad urbana — TEC de Monterrey",
-    "period": "Ago 2025 - Dic 2025",
-    "description": "Desarrollo de métricas y **pipelines** reproducibles para analizar patrones de movilidad urbana y estimar emisiones en ciudades mexicanas a partir de datos de GPS, comparando comportamientos en días de eventos masivos frente a días normales. Implementación de rutinas modulares de limpieza **espacio-temporal**, visualizaciones analíticas parametrizables (mapas de calor, histogramas, comparaciones entre resoluciones temporales) y métodos generalizables de **clasificación** de usuarios y **validación estadística**.",
-    "tech": ["Python", "Clustering", "Plotly", "Análisis geoespacial"],
-    "github": null,
-    "color": "from-rose-500 to-pink-600"
-  },
-  {
-    "id": "investigacion-en-astroquimica-computacional",
-    "title": "ML para la predicción de abundancias moleculares en el medio interestelar",
-    "period": " Ene 2026 - presente",
-    "description": "Trabajo de grado de maestría enfocado en aplicar **machine learning** para predecir la detectabilidad y abundancia de moléculas complejas en el medio interestelar. Implementación de un enfoque inspirado en **procesamiento de lenguaje natural (NLP)**, representando moléculas como vectores de embeddings análogos a word2vec, junto con técnicas de clustering **UMAP + HDBSCAN** y modelos de clasificación **Random Forest** sobre un corpus molecular astroquímico.",
-    "tech": ["Python", "Machine Learning", "ChemBERTa", "Astroquímica"],
-    "github": null,
-    "color": "from-violet-500 to-purple-600"
   }
 ]

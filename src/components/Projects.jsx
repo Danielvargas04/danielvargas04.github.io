@@ -27,9 +27,9 @@ function Projects() {
   return (
     <section id="projects" className="bg-surface text-slate-100 py-20">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-3xl font-bold mb-2 text-center">Proyectos</h2>
+        <h2 className="text-3xl font-bold mb-2 text-center">Projects</h2>
         <p className="text-slate-400 text-center mb-12">
-          Algunos trabajos destacados.
+          A few highlighted works.
         </p>
 
         {/* Grid responsive: 1 columna en móvil, 2 en tablet, 3 en escritorio */}
@@ -78,7 +78,7 @@ function Projects() {
                     rel="noreferrer"
                     className="text-sm font-semibold text-accent hover:text-accent-strong transition-colors"
                   >
-                    Ver en GitHub →
+                    View on GitHub →
                   </a>
                 )}
               </div>

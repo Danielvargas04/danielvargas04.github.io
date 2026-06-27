@@ -18,6 +18,15 @@
     "color": "from-rose-500 to-pink-600"
   },
   {
+    "id": "ocr-digitalizacion-entrevistas",
+    "title": "ETL y digitalización de documentos con OCR",
+    "period": "Feb 2024",
+    "description": "Diseñé e implementé un **proceso ETL** para extraer y digitalizar información desde **documentos PDF** de entrevistas de trabajo, utilizando **OCR (Pytesseract)** y procesamiento de imágenes (**Pillow**), generalizando la solución para cualquier PDF que contuviera tablas. Desarrollé rutinas automatizadas de **limpieza, mapeo y validación** de los datos extraídos, integrando la información directamente en el flujo de validación de candidatos. Reduje el tiempo de procesamiento del histórico completo de **horas a minutos** (equivalente a segundos por documento individual), mejorando significativamente la eficiencia y trazabilidad del proceso.",
+    "tech": ["Python", "Pytesseract", "Pillow", "OCR", "ETL"],
+    "github": null,
+    "color": "from-cyan-500 to-blue-600"
+  },
+  {
     "id": "cnn-agujeros-negros",
     "title": "Convolutional neural network for black hole images",
     "period": "Aug 2023 - Dec 2023",

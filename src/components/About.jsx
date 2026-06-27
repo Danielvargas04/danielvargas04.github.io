@@ -3,13 +3,13 @@
 
 const academic = [
   {
-    title: "Physicist — Universidad Nacional de Colombia",
-    detail: "2020–2025 · GPA 4.6/5.0",
-  },
-  {
-    title: "M.Sc. in Astronomy — UNAL (ongoing)",
+    title: "M.Sc. in Astronomy — UNAL (ongoing until 2027)",
     detail:
       "Thesis: ML applied to predicting molecular abundances in the interstellar medium.",
+  },
+  {
+    title: "Physicist — Universidad Nacional de Colombia",
+    detail: "2020–2025 · GPA 4.6/5.0",
   },
   {
     title: "Scientific publication — eSPECTRA (2024)",
@@ -19,7 +19,7 @@ const academic = [
   {
     title: "Summer schools",
     detail:
-      "UNAM (astrophysics/radio astronomy) and AstroTwinCoLO (gravitational lensing · U. Antioquia & Leiden).",
+      "UNAM (astrophysics/radio astronomy) | AstroTwinCoLO (gravitational lensing · U. Antioquia & Leiden).",
   },
 ];
 
@@ -27,6 +27,14 @@ const industry = [
   {
     title: "Urban mobility analysis — TEC Monterrey",
     detail: "Clustering and reproducible metrics on GPS data.",
+  },
+  {
+    title: "OCR and information digitization ",
+    detail: "ETL pipeline to digitize and analyze information from PDF documents using OCR with Pytesseract and Pillow.",
+  },
+  {
+    title: "Research internship — RECA",
+    detail: "Computational astrochemistry and simulation pipelines.",
   },
   {
     title: "NASA Space Apps Challenge",
@@ -40,10 +48,7 @@ const industry = [
     title: "Python instructor — Kodland",
     detail: "Python fundamentals and project-oriented best practices.",
   },
-  {
-    title: "Research internship — RECA",
-    detail: "Computational astrochemistry and simulation pipelines.",
-  },
+  
 ];
 
 // Componente auxiliar para una columna. Recibe props: título, color y lista de ítems.
@@ -67,21 +72,21 @@ function TrackColumn({ heading, accentClass, items }) {
 
 function About() {
   return (
-    <section id="about" className="bg-navy text-slate-100 py-20">
-      <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-3xl font-bold mb-2 text-center">About me</h2>
+    <section id="trayectory" className="bg-navy text-slate-100 py-20">
+      <div className="max-w-7xl mx-auto px-6">
+        <h2 className="text-6xl font-bold mb-2 text-center">Trayectory</h2>
         <p className="text-slate-400 text-center mb-12">
           Two complementary tracks.
         </p>
 
         <div className="grid gap-8 md:grid-cols-2">
           <TrackColumn
-            heading="Academic track"
+            heading="Academic"
             accentClass="text-accent"
             items={academic}
           />
           <TrackColumn
-            heading="Applied / industry track"
+            heading=" Industry"
             accentClass="text-accent"
             items={industry}
           />
